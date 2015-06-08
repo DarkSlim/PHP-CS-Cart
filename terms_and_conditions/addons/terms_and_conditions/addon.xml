@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<addon>
+	<id>terms_and_conditions</id>
+	<name>Terms and conditions</name>
+	<priority>4294967294</priority>
+	<position>0</position>
+	<status>active</status>
+	<dependencies></dependencies>
+	<opt_settings>
+		<item id="display_on_invoice">
+			<name>Display terms and conditions text on invoice</name> 
+			<type>checkbox</type> 
+			<default_value>N</default_value> 
+			<translations>
+				
+			</translations>
+		</item>
+	</opt_settings>
+	<opt_language_variables>
+		<item id="terms_text" lang="EN">Please enter the terms and conditions text here, using HTML tags</item> 
+	</opt_language_variables>
+</addon>
